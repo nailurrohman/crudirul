@@ -1,0 +1,32 @@
+Langkah-langkah Membuat aplikasi CRUD sederhana dengan Laravel
+
+~ Langkah Awal :
+1. Install Laravel versi 8
+2. Buka Terminal / CMD
+3. Jalankan command : composer create-project --prefer-dist laravel/Laravel crudirul
+4. Masuk ke folder tempat project
+5. Buka Visual Studio Code
+6. Buka terminal baru di menu view atas
+7. Run command : php artisan serve
+
+~ Langkah kedua :
+1. Buat database di mysql
+2. Hubungkan ke vscode dengan menggunakan .env
+3. Buat route untuk konfigurasi
+4. Buat model dengan command : php artisan make:model post -m
+5. Buat table menggunakan file migration
+6. Buat controller dengan command : php artisan make: controller -r
+7. Buat view untuk menambahkan data di direktori
+8. Jalankan : php artisan serve
+
+
+Catatan : dalam pengerjaan membuat CRUD ini saya mengalami banyak kendala terutama dalam masalah error di peng-codingannya...
+Saya dibantu melihat tutorial yang sudah ada di YouTube: https://youtube.com/playlist?list=PLOpjxspexSIkCQNhoW8mKpQqXBgqPalxj
+Dari tutorial tersebut banyak code script yang rubah, contoh : 
+<select name="jenis_kelamin">
+Menjadi : <select name="jenis kelamin">
+
+<input type="text" name="no_kk" placeholder="NO KK"><br>
+Menjadi : <input type="text" name="no kk" placeholder="NO KK"><br>
+
+Apabila ada salah kata dalam langkah-langkah ini dan coding saya, saya mohon maaf..
